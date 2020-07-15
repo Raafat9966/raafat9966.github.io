@@ -2,3 +2,7 @@ body {
     background-color: pink;
     text-align: center;
 }
+
+.item {
+    color: blue;
+}
