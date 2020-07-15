@@ -4,6 +4,7 @@ body {
 }
 
 .item {
+    font-size: 2rem;
     color: blue;
 }
 a {
