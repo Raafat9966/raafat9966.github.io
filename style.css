@@ -57,7 +57,7 @@ a:hover {
         font-size: 16px;
     }
 } */
-@media (max-width: 952px) {
+@media (max-width: 1421px) {
 	.checkbtn {
 		display: block;
 		float: left;
@@ -91,12 +91,6 @@ a:hover {
 		left: 0;
 	}
 }
-/* section {
-	background: url(sky-earth-space-working-full.jpg) no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: calc(100vh - 80px);
-} */
 
 /* burger button */
 
@@ -153,6 +147,7 @@ a:hover {
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	justify-content: center;
 	min-height: 100vh;
 	grid-gap: 1rem;
 }
