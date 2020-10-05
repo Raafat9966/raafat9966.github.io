@@ -1,163 +1,125 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8" />
-		<title>Responsive Navbar</title>
+<html>
 
-		<link
-			rel="icon"
-			href="baseline_sentiment_satisfied_alt_black_18dp.png"
-			type="image/icon type"
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	</head>
-	<body>
-		<nav>
-			<input type="checkbox" id="check" />
-			<label for="check" class="checkbtn">
-				<div class="menu-btn">
-					<div class="menu-btn__burger"></div>
-				</div>
-			</label>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=f7a9a132309e2fa03563bd57de44c3b7">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
 
-			<ul>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Personal-page/"
-						target="blank"
-						>Portfolio</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/surveyForm/"
-						target="blank"
-						>Survey-Form</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Budget-App/"
-						target="blank"
-						>Budget</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Food-API/"
-						target="blank"
-						>Food API</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Num-Gen/"
-						target="blank"
-						>GenerateNumber</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/speed-typing-game/"
-						target="blank"
-						>Speed Game</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Bootstrap-5-project/"
-						target="blank"
-						>Bootstrap webpage</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/awesome-form/"
-						target="blank"
-						>awesome form</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://raafat9966.github.io/Exchange_rate_app/"
-						target="blank"
-						>Exchange rate</a
-					>
-				</li>
-			</ul>
-		</nav>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white text-uppercase portfolio-navbar gradient" style="background: linear-gradient(90deg, rgb(87,0,101) 12%, rgb(128,0,255) 64%, rgb(0,178,255) 100%);box-shadow: 0px 6px 10px rgb(115,115,115);opacity: 0.77;height: 60px;">
+        <div class="container"><a class="navbar-brand logo" href="index.html">My Personal Page</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background-image: url(&quot;assets/img/o-me.jpg?h=8cbab11a0e698f43a596fd95337912fa&quot;);width: 200px;height: 200px;"></div>
+                <div class="about-me">
+                    <p>Greetings! My name is&nbsp;<strong>Raafat</strong>. I am a Full Stack &amp; Interface Developer. I'm passionate about pixel perfect and minimal interfaces.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block photography">
+            <div class="container">
+                <div class="row no-gutters" style="box-shadow: 4px 5px 18px;border-radius: 0;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image1.jpg?h=d679710e5ce8e4c2db35fde74a78a924"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image4.jpg?h=1982116904e6a58b7261b01d77f07045" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;);"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg?h=dfa56246a493db02797b024ba354688f" loading="auto"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3>Like what you see?</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact-me.html">Contact me</a></div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>Special Skills</h2>
+                </div>
+                <!-- End: portfolio heading -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline" style="background-color: rgb(97,193,255);"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">The highlight in Web Design is the creativity trait. The key in creating a successful design is the minimalistic approach and the perfect colour palette. In my view, this two combined elements are essential in designing
+                                    the ideal website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline" style="background-color: rgb(0,129,213);"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Interface Design</h3>
+                                <p class="card-text">Interface Design offers full control and accessibility in using any software. The main focus is on the style, in order to make the user have a pleasurable and easier experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline" style="background-color: rgb(158,0,255);"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Development</h3>
+                                <p class="card-text">My wide knowledge in Web Development includes markup and coding. This skill mainly refers to expanding, configuration, maintenance and optimisation of a website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Website Project</h3>
+                    <p>I'm sharing and transferring all my passion and love for programming when I'm working on my projects.&nbsp;</p>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="screen">
+                            <div class="screen-content" style="background: url(assets/img/budget.png?h=33701fd0743f338995c0731073aaf4ea) center / cover no-repeat;"></div>
+                        </div>
+                        <div class="keyboard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links" style="font-size: 20px;font-style: normal;font-family: Alatsi, sans-serif;"><a href="cv.html">About me</a><a href="contact-me.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
+            <div class="social-icons"><a href="https://www.facebook.com/raafat.basheer" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-facebook"></i></a><a href="https://github.com/Raafat9966/" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-github"></i></a>
+                <a
+                    href="https://twitter.com/raafatbasheer1" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/raafat-basheer-713a00a4/" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-linkedin"></i></a></div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js?h=431006b7798dde30d7728c5df9bb0948"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js?h=4e0250612cb0b1aba8835335a87f4f23"></script>
+</body>
 
-		<div class="gallery">
-			<div class="img-container">
-				<img
-					src="./previews/page1.jpg"
-					alt="Personal page"
-					data-original="page1-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page2.jpg"
-					alt="Survey form"
-					data-original="page2-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page3.jpg"
-					alt="Budget app"
-					data-original="page3-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page4.jpg"
-					alt="Food-API"
-					data-original="page4-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page5.jpg"
-					alt="Generate number"
-					data-original="page5-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page6.jpg"
-					alt="Typing game"
-					data-original="page6-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page7.jpg"
-					alt="Bootstrap webpage"
-					data-original="page7-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page8.jpg"
-					alt="Awesome form"
-					data-original="page8-full.jpg"
-				/>
-			</div>
-			<div class="img-container">
-				<img
-					src="./previews/page9.jpg"
-					alt="Exchange rate app"
-					data-original="page9-full.jpg"
-				/>
-			</div>
-		</div>
-		<div class="modal">
-			<img src="" alt="" class="full-img" />
-			<p class="caption"></p>
-		</div>
-		<script src="main.js"></script>
-	</body>
 </html>
