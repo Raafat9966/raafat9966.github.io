@@ -5,22 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=4d762ddb1a0032173cc6acbf1f6d2631">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=802f2123cd505e3151e76250a47c6728">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white text-uppercase portfolio-navbar gradient" style="background: linear-gradient(90deg, rgb(87,0,101) 12%, rgb(128,0,255) 64%, rgb(0,178,255) 100%);box-shadow: 0px 6px 10px rgb(115,115,115);opacity: 0.77;height: 60px;">
-        <div class="container"><a class="navbar-brand logo" href="index.html">My Personal Page</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgb(45,45,45);"></span></button>
+        <div class="container"><a class="navbar-brand logo" href="index.html">My Personal Page</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
-                class="collapse navbar-collapse" id="navbarNav" style="color: rgb(44,44,44);">
+                class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: rgb(45,45,45);">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html" style="color: rgb(45,45,45);">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html" style="color: rgb(45,45,45);">CV</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
                 </ul>
         </div>
         </div>
@@ -28,14 +29,14 @@
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
             <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/o-me.jpg?h=8cbab11a0e698f43a596fd95337912fa&quot;);width: 200px;height: 200px;"></div>
+                <div class="tada animated avatar" style="width: 200px;height: 200px;background-image: url(&quot;assets/img/o-me.jpg?h=8cbab11a0e698f43a596fd95337912fa&quot;);"></div>
                 <div class="about-me">
-                    <p>Greetings! My name is&nbsp;<strong>Raafat</strong>. I am a Full Stack &amp; Interface Developer. I'm passionate about pixel perfect and minimal interfaces.</p>
+                    <p class="jello animated">Greetings! My name is&nbsp;<strong>Raafat</strong>. I am a Full Stack &amp; Interface Developer. I'm passionate about pixel perfect and minimal interfaces.</p>
                 </div>
             </div>
         </section>
         <section class="portfolio-block photography">
-            <div class="container">
+            <div class="container rubberBand animated">
                 <div class="row no-gutters" style="box-shadow: 4px 5px 18px;border-radius: 0;">
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image1.jpg?h=d679710e5ce8e4c2db35fde74a78a924"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image4.jpg?h=1982116904e6a58b7261b01d77f07045" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;);"></a></div>
@@ -43,12 +44,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact-me.html">Contact me</a></div>
-            </div>
-        </section>
+        <section class="portfolio-block call-to-action border-bottom"></section>
         <section class="portfolio-block skills">
             <div class="container">
                 <!-- Start: portfolio heading -->
@@ -87,6 +83,10 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content" style="padding: 4px;">
+                    <h3 style="margin-top: 6px;">Like what you see?&nbsp;&nbsp;</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact-me.html">Contact me</a></div>
+            </div>
         </section>
     </main>
     <section class="portfolio-block website gradient">
@@ -117,7 +117,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/smart-forms.min.js?h=431006b7798dde30d7728c5df9bb0948"></script>
+    <script src="assets/js/smart-forms.min.js?h=b7275171fee7833b33216c067c3940d2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js?h=4e0250612cb0b1aba8835335a87f4f23"></script>
 </body>
