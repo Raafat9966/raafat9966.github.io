@@ -5,61 +5,108 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=bbba7d086eb8a8baf3d93b310a7643ff">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=5f167b424f1ffcc348f7193cb444f1ab">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white text-uppercase portfolio-navbar gradient" style="background: linear-gradient(90deg, rgb(87,0,101) 12%, rgb(128,0,255) 64%, rgb(0,178,255) 100%);box-shadow: 0px 6px 10px rgb(115,115,115);opacity: 0.77;height: 60px;">
-        <div class="container"><a class="navbar-brand logo" href="index.html" style="filter: blur(1px);">My Personal Page</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white text-uppercase align-content-center portfolio-navbar gradient" style="background: linear-gradient(90deg, rgb(87,0,101) 12%, rgb(128,0,255) 64%, rgb(0,178,255) 100%);box-shadow: 0px 6px 10px rgb(115,115,115);opacity: 0.77;height: 60px;">
+        <div class="container">
+            <ul class="nav navbar-nav mr-auto" style="width: 190px;height: 65px;">
+                <li class="nav-item" style="width: 190px;height: 65px;padding: 0px;"><img src="assets/img/profile%20logo.svg?h=2bdf6b3d2b7b5e5878467bbe8111078c" style="width: 190px;height: 65px;"></li>
+            </ul><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav" style="width: 53px;height: 39px;"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: rgb(0,0,0);font-size: 20px;filter: blur(0px);">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html" style="color: rgb(0,0,0);font-size: 20px;filter: blur(0px);">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html" style="color: rgb(0,0,0);font-size: 20px;filter: blur(0px);">CV</a></li>
+                    <li class="nav-item" style="color: var(--dark);"><a class="nav-link active" href="index.html" style="color: var(--dark);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html" style="color: var(--dark);">CV</a></li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
             <div class="container">
-                <div class="tada animated avatar" style="width: 200px;height: 200px;background-image: url(&quot;assets/img/o-me.jpg?h=8cbab11a0e698f43a596fd95337912fa&quot;);"></div>
+                <div data-aos="fade-down" data-aos-duration="600" data-aos-delay="50" data-aos-once="true" class="avatar" style="width: 200px;height: 200px;background-image: url(&quot;assets/img/o-me.jpg?h=8cbab11a0e698f43a596fd95337912fa&quot;);"></div>
                 <div class="about-me">
-                    <p class="jello animated">Greetings! My name is&nbsp;<strong>Raafat</strong>. I am a Full Stack &amp; Interface Developer. I'm passionate about pixel perfect and minimal interfaces.</p>
+                    <p data-aos="fade-down" data-aos-duration="700" data-aos-delay="200" data-aos-once="true">Greetings! My name is&nbsp;<strong>Raafat</strong>. I am a Full Stack &amp; Interface Developer. I'm passionate about pixel perfect and minimal interfaces.</p>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block photography">
-            <div class="container rubberBand animated">
-                <div class="row no-gutters" style="box-shadow: 4px 5px 18px;border-radius: 0;">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image1.jpg?h=d679710e5ce8e4c2db35fde74a78a924"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image4.jpg?h=1982116904e6a58b7261b01d77f07045" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;);"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg?h=dfa56246a493db02797b024ba354688f" loading="auto"></a></div>
+        <div class="container portfolio-block call-to-action border-bottom">
+            <section data-aos="fade-up" data-aos-once="true">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>Recent Work</h2>
+                </div><!-- End: portfolio heading -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/Budget-App/" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/budget.png?h=33701fd0743f338995c0731073aaf4ea" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/Budget-App/" target="_blank">Budget App</a></h6>
+                                <p class="text-muted card-text">Application to calculate the expensive and income</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/Exchange_rate_app/" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/nature/page9-full.jpg?h=5eb9acbe4fd0dc9b301a74a171feab85" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/Exchange_rate_app/" target="_blank">Exchange Rate</a></h6>
+                                <p class="text-muted card-text">Application to Exchange currency&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/quiz-app" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/nature/quiz-app.jpg?h=b5dba78ecd2d753a4c1e56dd68c7b844" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/quiz-app" target="_blank">Quiz App</a></h6>
+                                <p class="text-muted card-text">Application to make 10 random questions about computer science</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/framework_bootstrap_benny-s-burgers/" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/nature/benny-burger.jpg?h=7d9bf791ca4fcf7c30948876f94008e0" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/framework_bootstrap_benny-s-burgers/" target="_blank"><br><strong>framework_bootstrap_benny-s-burgers</strong><br></a></h6>
+                                <p class="text-muted card-text">Bootstrap project for Burger website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/speed-typing-game/" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/nature/speed-typing.jpg?h=f445b5c8987ff4445720ff81419a081b" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/speed-typing-game/" target="_blank">Speed typing game</a></h6>
+                                <p class="text-muted card-text">a game to est your typing speed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://raafat9966.github.io/Food-API/" target="_blank"><img class="card-img-top scale-on-hover" src="assets/img/nature/food-api.jpg?h=df81354ada82fcecad1e0a03d2140179" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://raafat9966.github.io/Food-API/" target="_blank">Food API app</a></h6>
+                                <p class="text-muted card-text">Application for food searching&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom"></section>
-        <section class="portfolio-block skills">
+            </section>
+        </div>
+        <section data-aos="fade-up" data-aos-once="true" class="portfolio-block skills">
             <div class="container">
                 <!-- Start: portfolio heading -->
                 <div class="heading">
                     <h2>Special Skills</h2>
-                </div>
-                <!-- End: portfolio heading -->
+                </div><!-- End: portfolio heading -->
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline" style="background-color: rgb(97,193,255);"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Web Design</h3>
-                                <p class="card-text">The highlight in Web Design is the creativity trait. The key in creating a successful design is the minimalistic approach and the perfect colour palette. In my view, this two combined elements are essential in designing
-                                    the ideal website.</p>
+                                <p class="card-text">The highlight in Web Design is the creativity trait. The key in creating a successful design is the minimalistic approach and the perfect colour palette. In my view, this two combined elements are essential in designing the ideal website.</p>
                             </div>
                         </div>
                     </div>
@@ -85,11 +132,12 @@
             </div>
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center content" style="padding: 4px;">
-                    <h3 style="margin-top: 6px;">Like what you see?&nbsp;&nbsp;</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact-me.html">Contact me</a></div>
+                    <h3 style="margin-top: 6px;">Like what you see?&nbsp;&nbsp;</h3><a class="btn btn-outline-primary btn-lg" role="button" href="contact-me.html">Contact me</a>
+                </div>
             </div>
         </section>
     </main>
-    <section class="portfolio-block website gradient">
+    <section data-aos="fade-up" data-aos-once="true" class="portfolio-block website gradient">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-5 offset-lg-1 text">
@@ -107,17 +155,17 @@
             </div>
         </div>
     </section>
-    <footer class="page-footer">
+    <footer class="page-footer" style="background: var(--dark);">
         <div class="container">
-            <div class="links" style="font-size: 20px;font-style: normal;font-family: Alatsi, sans-serif;"><a href="cv.html">About me</a><a href="contact-me.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
-            <div class="social-icons"><a href="https://www.facebook.com/raafat.basheer" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-facebook"></i></a><a href="https://github.com/Raafat9966/" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-github"></i></a>
-                <a
-                    href="https://twitter.com/raafatbasheer1" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/raafat-basheer-713a00a4/" target="_blank" style="background-color: rgb(79,79,79);"><i class="icon ion-social-linkedin"></i></a></div>
+            <div class="links" style="font-size: 20px;font-style: normal;font-family: Alatsi, sans-serif;background: var(--dark);color: var(--cyan);"><a href="cv.html" style="color: var(--blue);">About me</a><a href="contact-me.html" style="color: var(--blue);">Contact me</a><a href="projects-grid-cards.html" style="color: var(--blue);">Projects</a></div>
+            <div class="social-icons"><a href="https://www.facebook.com/raafat.basheer" target="_blank" style="background: #7e3b89;color: var(--dark);"><i class="icon ion-social-facebook"></i></a><a href="https://github.com/Raafat9966/" target="_blank" style="background: #7e3b89;color: var(--dark);"><i class="icon ion-social-github"></i></a><a href="https://twitter.com/raafatbasheer1" target="_blank" style="background: #7e3b89;color: var(--dark);"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/raafat-basheer-713a00a4/" target="_blank" style="background: #7e3b89;color: var(--dark);"><i class="icon ion-social-linkedin"></i></a></div>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/smart-forms.min.js?h=b7275171fee7833b33216c067c3940d2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js?h=9db842b3dc3336737559eb4abc0f1b3d"></script>
+    <script src="assets/js/bs-init.js?h=36ffa0191e9d112d6a97bac11fc65d8e"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js?h=4e0250612cb0b1aba8835335a87f4f23"></script>
 </body>
